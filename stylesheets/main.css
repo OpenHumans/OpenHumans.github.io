@@ -1,0 +1,24 @@
+body {
+  padding-top: 50px;
+  font-size: 16px;
+  padding-bottom: 50px;
+}
+.lead-row{
+  margin-top: 20px;
+}
+.lead-div {
+  margin-top: 30px;
+}
+li {
+  margin-bottom: 20px;
+}
+ul li ul li {
+  margin-bottom: 0px;
+}
+.nav li, li:last-child {
+  margin-bottom: 0px;
+}
+.anchor-offset{
+  padding-top: 50px;
+  margin-top: -50px;
+}
