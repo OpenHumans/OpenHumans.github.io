@@ -22,3 +22,13 @@ ul li ul li {
   padding-top: 50px;
   margin-top: -50px;
 }
+
+.btn-default{
+  background-image: none;
+  border-color: #ff9f80;
+}
+
+.btn-default:hover {
+  background-color: #fff5f2;
+  border-color: #e63800;
+}

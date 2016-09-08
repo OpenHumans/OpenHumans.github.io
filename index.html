@@ -12,9 +12,11 @@
     <title>Open Humans Foundation</title>
 
     <!-- Bootstrap core CSS -->
+    <!-- Bootstrap customization: http://getbootstrap.com/customize/?id=c92c3f72c72f7007aff7a71963e328f8 -->
     <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
     <link href="stylesheets/bootstrap-theme.min.css" rel="stylesheet">
     <link href="stylesheets/main.css" rel="stylesheet">
+    <link href="stylesheets/font-awesome.min.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -28,7 +30,9 @@
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <button type="button" class="navbar-toggle collapsed"
+              data-toggle="collapse" data-target="#navbar"
+              aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -40,6 +44,7 @@
           <ul class="nav navbar-nav">
             <li><a href="#programs">Programs</a></li>
             <li><a href="#team">Team</a></li>
+            <li><a href="#donate">Donate</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -51,14 +56,15 @@
         <div class="col-xs-8 col-md-9 lead-div">
           <h1>Open Humans Foundation</h1>
           <p class="lead">
-            The Open&nbsp;Humans Foundation is a 501(c)(3) nonprofit organization
-            dedicated to enabling individuals to access their data and share it
-            with research studies.
+            The Open&nbsp;Humans Foundation is a 501(c)(3) nonprofit
+            organization dedicated to enabling individuals to access their data
+            and share it with research studies.
           </p>
         </div>
         <div class="col-xs-4 col-md-3 lead-div">
           <p class="text-center">
-            <img src="images/ohfound-logo-medium.png" style="max-width:80%;margin-top:20px;">
+            <img src="images/ohfound-logo-medium.png"
+              style="max-width:80%;margin-top:20px;">
           </p>
         </div>
       </div>
@@ -66,24 +72,44 @@
       <div id="programs" class="anchor-offset">
         <h2>Programs</h2>
         <div class="row">
-          <div class="col-xs-9 col-sm-offset-1 col-sm-7 col-md-8">
+          <div class="col-xs-9 col-sm-offset-1 col-sm-8 col-md-9">
             <h3>Open&nbsp;Humans</h3>
             <p>
               <a href="https://www.openhumans.org/">Open&nbsp;Humans</a> is a
-              platform that enables individuals to connect their
-              data with research and citizen science. Visit
-              <a href="https://www.openhumans.org/">www.openhumans.org</a> to learn
-              more!
+              project and community that enables individuals to connect their
+              data with research and citizen science.
             </p>
+            <p><button class="btn btn-default btn-lg">
+              <a href="https://www.openhumans.org/">www.openhumans.org</a>
+            </button></p>
+            <div class="btn-group" role="group" aria-label="PGP Social Links">
+              <button type="button" class="btn btn-default">
+                <a href="http://blog.openhumans.org">
+                  <i class="fa fa-pencil-square-o"></i> Open Humans blog</a>
+              </button>
+              <button type="button" class="btn btn-default">
+                <a href="https://twitter.com/OpenHumansOrg">
+                  <i class="fa fa-twitter"></i> @OpenHumansOrg</a>
+              </button>
+              <button type="button" class="btn btn-default">
+                <a href="https://www.facebook.com/openhumansorg/">
+                  <i class="fa fa-facebook-square"></i> Open Humans Facebook</a>
+              </button>
+              <button type="button" class="btn btn-default">
+                <a href="https://forums.openhumans.org/">
+                  <i class="fa fa-comments-o"></i> Open Humans Forums</a>
+              </button>
+            </div>
           </div>
           <div class="col-xs-3 col-md-2">
             <p><a href="https://www.openhumans.org/">
-              <img src="images/openhumans-logo.png" style="max-width:80%;margin-top:20px;">
+              <img src="images/openhumans-logo.png"
+                style="max-width:80%;margin-top:20px;">
             </a></p>
           </div>
         </div>
         <div class="row">
-          <div class="col-xs-9 col-sm-offset-1 col-sm-7 col-md-8">
+          <div class="col-xs-9 col-sm-offset-1 col-sm-8 col-md-9">
             <h3>Personal Genome Project</h3>
             <p>
               The Open Humans Foundation helps support the
@@ -93,30 +119,72 @@
               public resources of genome data, health information, and cell
               lines.
             </p>
+            <p><button class="btn btn-default btn-lg">
+              <a href="https://www.personalgenomes.org/">
+                www.personalgenomes.org</a>
+            </button></p>
+            <div class="btn-group" role="group" aria-label="PGP Social Links">
+              <button type="button" class="btn btn-default">
+                <a href="http://blog.personalgenomes.org">
+                  <i class="fa fa-pencil-square-o"></i> PGP blog</a>
+              </button>
+              <button type="button" class="btn btn-default">
+                <a href="https://twitter.com/PGorg">
+                  <i class="fa fa-twitter"></i> @PGorg</a>
+              </button>
+              <button type="button" class="btn btn-default">
+                <a href="https://www.facebook.com/PersonalGenomesOrg/">
+                  <i class="fa fa-facebook-square"></i> PersonalGenomes.org Facebook</a>
+              </button>
+            </div>
           </div>
           <div class="col-xs-3 col-md-2">
             <p><a href="http://www.personalgenomes.org/organization/network">
-              <img src="images/pgp-logo.png" style="max-width:80%;margin-top:20px;">
+              <img src="images/pgp-logo.png"
+                style="max-width:80%;margin-top:20px;">
             </a></p>
           </div>
         </div>
         <div class="row">
-          <div class="col-xs-9 col-sm-offset-1 col-sm-7 col-md-8">
+          <div class="col-xs-9 col-sm-offset-1 col-sm-8 col-md-9">
             <h3>GET Conference</h3>
             <p>
               Since 2010, we've also organized the
               <a href="http://www.getconference.org/">GET Conference</a>,
               an annual gathering that brings together leading thinkers to
               discuss how we measure and understand people and their traits.
+              Recent years have also featured GET Labs, where researchers bring
+              their studies to recruit and work with participants, and the
+              GETy Awards, honoring excellence in participant-centered
+              research.
             </p>
+            <p><button class="btn btn-default btn-lg">
+              <a href="https://www.getconference.org/">
+                www.getconference.org</a>
+            </button></p>
+            <div class="btn-group" role="group" aria-label="PGP Social Links">
+              <button type="button" class="btn btn-default">
+                <a href="http://blog.getconference.org">
+                  <i class="fa fa-pencil-square-o"></i> GET blog</a>
+              </button>
+              <button type="button" class="btn btn-default">
+                <a href="https://twitter.com/attendGET">
+                  <i class="fa fa-twitter"></i> @attendGET</a>
+              </button>
+              <button type="button" class="btn btn-default">
+                <a href="https://twitter.com/GETmeasured">
+                  <i class="fa fa-twitter"></i> @GETmeasured</a>
+              </button>
+            </div>
           </div>
           <div class="col-xs-3 col-md-2">
             <p><a href="http://www.getconference.org/">
-              <img src="images/get-logo.png" style="max-width:80%;margin-top:20px;">
+              <img src="images/get-logo.png"
+                style="max-width:80%;margin-top:20px;">
             </a></p>
           </div>
         </div>
-      </div> <!-- /#projects -->
+      </div> <!-- /#programs -->
 
       <hr>
 
@@ -124,7 +192,7 @@
         <h2>Team</h2>
         <h3>Staff</h3>
         <div class="row">
-          <div class="col-sm-4 col-md-3">
+          <div class="col-xs-6 col-sm-4 col-md-3">
             <div class="thumbnail">
               <img src="images/madeleine-ball.jpg">
               <div class="caption">
@@ -132,7 +200,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-4 col-md-3">
+          <div class="col-xs-6 col-sm-4 col-md-3">
             <div class="thumbnail">
               <img src="images/jason-bobe.jpg">
               <div class="caption">
@@ -140,34 +208,36 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-4 col-md-3">
+          <div class="col-xs-6 col-sm-4 col-md-3">
             <div class="thumbnail">
               <img src="images/beau-gunderson.jpg">
               <div class="caption">
-                <h3>Beau Gunderson<br><small>Senior Software Engineer</small></h3>
+                <h3>Beau Gunderson<br>
+                  <small>Senior Software Engineer</small></h3>
               </div>
             </div>
           </div>
-          <div class="col-sm-4 col-md-3">
+          <div class="col-xs-6 col-sm-4 col-md-3">
             <div class="thumbnail">
               <img src="images/hope-kroog.jpg">
               <div class="caption">
-                <h3>Hope Kroog<br><small>Administrative Assistant</small></h3>
+                <h3>Hope Kroog<br>
+                  <small>Administrative Assistant</small></h3>
               </div>
             </div>
           </div>
         </div> <!-- /#row -->
-        <h3>Board</h3>
+        <h3>Board of Directors</h3>
         <div class="row">
-          <div class="col-sm-4 col-md-3">
+          <div class="col-xs-6 col-sm-4 col-md-3">
             <div class="thumbnail">
               <img src="images/misha-angrist.jpg">
               <div class="caption">
-                <h3>Misha Angrist<br><small>Board member</small></h3>
+                <h3>Misha Angrist<br><small>&nbsp;</small></h3>
               </div>
             </div>
           </div>
-          <div class="col-sm-4 col-md-3">
+          <div class="col-xs-6 col-sm-4 col-md-3">
             <div class="thumbnail">
               <img src="images/john-cammack.jpg">
               <div class="caption">
@@ -175,7 +245,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-4 col-md-3">
+          <div class="col-xs-6 col-sm-4 col-md-3">
             <div class="thumbnail">
               <img src="images/george-church.jpg">
               <div class="caption">
@@ -183,31 +253,31 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-4 col-md-3">
+          <div class="col-xs-6 col-sm-4 col-md-3">
             <div class="thumbnail">
               <img src="images/esther-dyson.jpg">
               <div class="caption">
-                <h3>Esther Dyson<br><small>Board member</small></h3>
+                <h3>Esther Dyson<br><small>&nbsp;</small></h3>
               </div>
             </div>
           </div>
-          <div class="col-sm-4 col-md-3">
+          <div class="col-xs-6 col-sm-4 col-md-3">
             <div class="thumbnail">
               <img src="images/juan-enriquez.jpg">
               <div class="caption">
-                <h3>Juan Enriquez<br><small>Board member</small></h3>
+                <h3>Juan Enriquez<br><small>&nbsp;</small></h3>
               </div>
             </div>
           </div>
-          <div class="col-sm-4 col-md-3">
+          <div class="col-xs-6 col-sm-4 col-md-3">
             <div class="thumbnail">
               <img src="images/steven-keating.jpg">
               <div class="caption">
-                <h3>Steven Keating<br><small>Board member</small></h3>
+                <h3>Steven Keating<br><small>&nbsp;</small></h3>
               </div>
             </div>
           </div>
-          <div class="col-sm-4 col-md-3">
+          <div class="col-xs-6 col-sm-4 col-md-3">
             <div class="thumbnail">
               <img src="images/michelle-meyer.jpg">
               <div class="caption">
@@ -215,11 +285,11 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-4 col-md-3">
+          <div class="col-xs-6 col-sm-4 col-md-3">
             <div class="thumbnail">
               <img src="images/ryan-phelan.jpg">
               <div class="caption">
-                <h3>Ryan Phelan<br><small>Board member</small></h3>
+                <h3>Ryan Phelan<br><small>&nbsp;</small></h3>
               </div>
             </div>
           </div>
@@ -228,15 +298,105 @@
 
       <hr>
 
+      <div id="donate" class="anchor-offset">
+        <h2>Donate</h2>
+        <p>
+          The Open Humans Foundation is a registered 501(c)(3) nonprofit
+          corporation. Donations help support and expand our programs,
+          furthering our mission.
+        </p>
+
+        <p class="text-muted"><i>
+          (Note: Our nonprofit was formerly named "PersonalGenomes.org",
+          and this is still reflected in some of our current materials.)
+        </i></p>
+
+        <h3>Ways to Give</h3>
+        <ul>
+          <li>
+            <p>
+              <b>Send a check</b> payable to Open Humans Foundation to the
+              following address:
+            </p>
+            <div style="margin-left:30px;">
+              Open Humans Foundation<br>
+              423 Brookline Avenue, #323<br>
+              Boston MA 02215-5410
+            </div>
+          </li>
+          <li>
+            <p>
+              <b>Double your contribution</b> by participating in your
+              company's matching gifts program.
+            </p>
+          </li>
+          <li>
+            <p>
+              <b>Gifts of Stock:</b> Please send an email to
+              <a href="mailto:giving@personalgenomes.org">
+              giving@personalgenomes.org</a> for more information.
+            </p>
+          </li>
+          <li>
+            <p>
+              <b>Corporate Giving:</b> Please send an email to
+              <a href="mailto:giving@personalgenomes.org">
+              giving@personalgenomes.org</a> for more information.
+            </p>
+          </li>
+        </ul>
+        <p>
+          For further information about charitable giving, please contact us
+          at <a href="mailto:giving@personalgenomes.org">
+          giving@personalgenomes.org</a>.
+        </p>
+        <h3>Tax Information</h3>
+        <ul>
+          <li>
+            <p>
+              <b>Federal Employer Identification Number (FEIN):</b> 26-2973607
+            </p>
+          </li>
+          <li>
+            <p>
+            <b>IRS Determination Letter:</b>
+              <a href="files/PGorg_IRS_501c3_Acceptance_Letter_July142008.pdf">
+                PersonalGenomes.org 501(c)(3) (PDF)</a><br>
+              <span class="text-muted"><i>(We will receive a new determination for
+              Open Humans Foundation in coming months.)</i></span>
+            </p>
+          </li>
+        </ul>
+      </div> <!-- /#donate -->
+
+      <hr>
+
       <div id="contact" class="anchor-offset">
         <h2>Contact Us</h2>
-        <h3>Our mailing address</h3>
+
+        <p class="text-muted"><i>
+          (Note: Our nonprofit was formerly named "PersonalGenomes.org",
+          and this is still reflected in some of our current materials.)
+        </i></p>
+
+        <h3>Email</h3>
+        <p>
+          Email is our preferred contact method! You can email us at:
+          <a href="mailto:general@personalgenomes.org">
+            general@personalgenomes.org</a>
+        </p>
+        <h3>Phone</h3>
+        <ul>
+          <li><b>Voice:</b> 617.401.7226</li>
+          <li><b>Fax:</b> 617.701.7643</li>
+        </ul>
+        <h3>Mail</h3>
         <p style="margin-left:20px;">
           Open Humans Foundation<br>
           423 Brookline Avenue, #323<br>
           Boston MA 02215-5410
         </p>
-      </div> <!-- /#team -->
+      </div> <!-- /#contact -->
 
     </div><!-- /.container -->
 
