@@ -32,3 +32,19 @@ ul li ul li {
   background-color: #fff5f2;
   border-color: #e63800;
 }
+
+.navbar-default .navbar-brand {
+  color: #a73610;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #a73610;
+}
+.navbar-default {
+  background-image: none;
+  border-color: #a73610;
+  background-color: #fff5f2;
+}
+hr {
+  border-top: 1px solid #ffd8cc;
+}
