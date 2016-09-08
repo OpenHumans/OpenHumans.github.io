@@ -26,11 +26,14 @@ ul li ul li {
 .btn-default{
   background-image: none;
   border-color: #ff9f80;
+  color: #a73610;
 }
 
 .btn-default:hover {
   background-color: #fff5f2;
-  border-color: #e63800;
+  border-color: #d96641;
+  text-decoration: underline;
+  color: #80290c;
 }
 
 .navbar-default .navbar-brand {
