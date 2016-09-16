@@ -18,9 +18,46 @@ ul li ul li {
 .nav li, li:last-child {
   margin-bottom: 0px;
 }
-.anchor-offset{
+.anchor-offset {
   padding-top: 50px;
   margin-top: -50px;
+}
+
+img.profile-photo {
+  width: 100%;
+  max-width: 250px;
+}
+
+.thumbnail.profile .caption {
+  overflow: hidden;
+}
+
+.thumbnail.profile .caption a {
+  color: #333;
+}
+
+@media (max-width: 620px) and (min-width: 450px) {
+  .thumbnail h3 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) and (min-width: 400px) {
+  .thumbnail h3 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 400px) and (min-width: 340px) {
+  .thumbnail h3 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 350px) {
+  .thumbnail h3 {
+    font-size: 14px;
+  }
 }
 
 .btn-default{
@@ -48,6 +85,11 @@ ul li ul li {
   border-color: #a73610;
   background-color: #fff5f2;
 }
+
+.navbar-default .navbar-toggle {
+  border-color: #a73610;
+}
+
 hr {
   border-top: 1px solid #ffd8cc;
 }
