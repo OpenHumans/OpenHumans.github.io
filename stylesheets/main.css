@@ -23,6 +23,19 @@ ul li ul li {
   margin-top: -50px;
 }
 
+.team-member {
+   max-width: 345px;
+}
+.person-name {
+  font-weight: 500;
+  font-size: 19px;
+}
+.person-name small, .person-name .small {
+  font-weight: normal;
+  line-height: 1;
+  color: #777;
+}
+
 img.profile-photo {
   width: 100%;
   max-width: 250px;
