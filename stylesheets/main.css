@@ -3,6 +3,9 @@ body {
   font-size: 16px;
   padding-bottom: 50px;
 }
+.text-muted{
+  color: #999;
+}
 .lead-row{
   margin-top: 20px;
 }
